@@ -1,20 +1,17 @@
 package com.goit.javaonline3.nod;
 
-import java.util.Scanner;
 
 public class Nod {
   
    public static int findNod(int firstNumber, int secondNumber) {
-       int min;
+       int moduleOfMinimalNumber = Math.abs(firstNumber);
        int nod = 0;
        
-       if (Math.abs(firstNumber) > Math.abs(secondNumber)) {
-           min = Math.abs(secondNumber);
-       } else {
-           min = Math.abs(firstNumber);
+       if (moduleOfMinimalNumber > Math.abs(secondNumber)) {
+           moduleOfMinimalNumber = Math.abs(secondNumber);
        }
 
-       for (int count = 1; count <= min; count++) {
+       for (int count = 1; count <= moduleOfMinimalNumber; count++) {
 
             if(firstNumber % count == 0 && secondNumber % count == 0) {
 
