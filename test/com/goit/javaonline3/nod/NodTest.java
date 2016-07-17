@@ -1,6 +1,5 @@
-package com.goit.javaonline3.test;
+package com.goit.javaonline3.nod;
 
-import com.goit.javaonline3.nod.Nod;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -4,7 +4,7 @@ import com.goit.javaonline3.nod.Nod;
 /**
  * Created by Ler4enko on 17.07.2016.
  */
-public class Ranner {
+public class Runner {
 
     public static void main(String[] arg) {
 
