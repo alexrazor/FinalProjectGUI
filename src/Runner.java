@@ -1,3 +1,4 @@
+import com.goit.javaonline3.gui.Gui;
 import com.goit.javaonline3.nod.CustomScanner;
 import com.goit.javaonline3.nod.Nod;
 
@@ -7,6 +8,9 @@ import com.goit.javaonline3.nod.Nod;
 public class Runner {
 
     public static void main(String[] arg) {
+
+        Gui gui = new Gui();
+        gui.run();
 
         System.out.println("Please enter two Integer numbers");
 
